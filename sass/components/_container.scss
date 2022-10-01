@@ -1,0 +1,45 @@
+.max {
+  background: var(--color5);
+  background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background.png);
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 200px 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+  @media screen and (min-width: 480px) {
+    .max { 
+      max-width: 448px;
+      background-size: cover;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .max { 
+      max-width: 768px;
+      background-size: cover;
+    }
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .max {
+    background-image: url(../images/background.png);
+  }
+}
+  
+ .bayer {
+  padding: 94px 0;
+  background: rgba(245, 244, 250, 1);
+  }
+  .section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .mer{
+    padding-top: 94px;
+  }
+  
+ .key{ 
+  padding: 94px 0;
+  }

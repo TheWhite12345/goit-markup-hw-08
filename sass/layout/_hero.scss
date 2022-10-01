@@ -1,0 +1,57 @@
+.text-radost {
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    outline: transparent;
+    padding: 0 45px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-bottom: 10px;
+  }
+  .text-radost:focus,
+  .text-radost:hover {
+    border-radius: 4px;
+    fill: #2196F3;
+    border: 1px solid rgba(33, 150, 243, 1);
+  }
+  .text-grust{  
+    outline: none;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    width: 100%;
+    height: 120px;
+    padding-left: 16px;
+    padding-top: 12px;
+    margin-top: 4px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    resize: none;
+  }
+  .text-grust:hover,
+  .text-grust:focus {
+    border: 1px solid rgba(33, 150, 243, 1);
+ }
+.text-grust::placeholder{
+  color: rgba(117, 117, 117, 0.5);
+   font-size: 12px;
+   font-weight: 400;
+ }
+ .drezden {
+    position: relative;
+   width: 358px;
+   height: 50px;
+   background-color: #2F303A;
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   margin-right: 12px;
+   padding: 0;
+   border-radius: 4px;
+   box-sizing: border-box;
+   padding: 16px ;
+   color: #FFFFFF;
+   font-weight: 400;
+   font-size: 16px;
+  }
+  .drezden.focus {
+    background-color: #2F303A;
+  }   
