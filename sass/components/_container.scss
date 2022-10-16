@@ -1,0 +1,93 @@
+.max {
+  background: var(--color5);
+  background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background.png);
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 200px 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+  @media screen and (min-width:480px) {
+    .max {
+      max-width: 480px;
+      background-size: cover;
+    }
+  }
+  @media screen and (min-width:768px) {
+    .max {
+      max-width: 768px;
+      background-size: cover;
+    }
+  }
+  @media screen and (min-width:1200px) {
+    .max {
+      max-width: 1200px;
+      background-size: cover;
+    }
+  }
+ .bayer {
+  padding: 94px 0;
+  background: rgba(245, 244, 250, 1);
+  }
+  @media screen and (min-width:768px)  {
+    .bayer {
+      max-width: 768px;
+    }
+  }
+  @media screen and (min-width:1200px)  {
+    .bayer {
+      max-width: 1200px;
+    }
+  }
+  @media screen and (min-width:1600px)  {
+    .bayer {
+      max-width: 1600px;
+    }
+  }
+  .section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  @media screen and (min-width:768px) {
+    .section {
+      max-width: 768px;
+    }
+  }
+  @media screen and (min-width:1200px) {
+    .section {
+      max-width: 1200px;
+    }
+  }
+  @media screen and (min-width:1600px) {
+    .section {
+      max-width: 1600px;
+    }
+  }
+  .mer{
+    padding-top: 94px;
+  }
+  @media screen and (min-width:768px) {
+    .mer {
+      max-width: 768px;
+    }
+  }
+  @media screen and (min-width:1200px) {
+    .mer {
+      max-width: 1200px;
+    }
+  }
+  @media screen and (min-width:1600px) {
+    .mer {
+      max-width: 1600px;
+    }
+  }
+ .key{ 
+    padding: 94px 0px;
+  }
+  @media screen and (min-width:768px) {
+    .key {
+      max-width: 768px;
+      flex-direction: column;
+    }
+  }

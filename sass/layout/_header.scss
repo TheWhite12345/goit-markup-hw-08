@@ -1,0 +1,74 @@
+.noov {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .noov span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px ;
+    width: 16px;
+    height: 15px;
+    margin-right: 10px;
+   }
+   .visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    margin: -1px;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    }
+  .modal-check:hover {
+    border: 1px solid var(--color4);
+  }
+  .modal-check:checked + .noov span {
+  border: none;
+  background-color: #2196F3;
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .modal-check:checked + .noov .zrenie {
+    border: none;
+    fill: #FFFFFF;
+    }
+    .hirurg {
+        position: relative;
+        font-weight: 400;
+        font-size: 12px;
+      }
+      .hirurg span {
+        color: #757575;
+        font-weight: 400;
+        font-size: 12px;
+      }
+      .hirurg:focus,
+      .hirurg:hover {
+       fill: #2196F3;
+      }    
+      .gora1 {
+        fill: #FFFFFF;
+        width: 15px;
+        height: 16px;
+        align-items: center;
+      }
+      .gora span {
+        color: #757575;
+        font-weight: 400;
+        font-size: 12px;
+      }
+      .gora1 span{
+        width: 16px;
+        height: 15px;
+        border-radius: 2px;
+        margin-right: 7px;
+        display: inline;
+        align-items: flex-start;
+        justify-content: center;
+      }      

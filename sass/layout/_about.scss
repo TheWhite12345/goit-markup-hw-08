@@ -1,0 +1,52 @@
+.antibiotik { 
+  fill: #2196F3;
+}
+.doroga {
+    fill: rgba(117, 117, 117, 1);
+    flex-direction: column;
+    margin-right: 10px;
+    fill: currentColor;
+     &:focus,
+     &:hover{
+ fill: rgba(33, 150, 243, 1);
+}
+}
+.bordo-pop-icon{
+  justify-content: center;
+  color: var(--color6);
+    &:focus,
+    &:hover{
+   color: var(--color3);
+   } 
+  } 
+.unit{
+  fill: var(--color3);
+  justify-content: center;
+  }   
+  .klip{
+    position: absolute;
+    left: 20px;
+    top: 35%;
+      &:hover ,
+      &:focus{
+   fill: #2196F3;  
+  }
+  }
+  .zrenie {
+    fill: transparent;
+    border: 1px solid var(--color1);
+  }
+  .tochka {
+    fill: #FFFFFF;
+  }
+  .bro{
+    fill: inherit;
+     &:hover,
+     &:focus{
+    fill: rgba(33, 150, 243, 1);
+  } 
+  }
+     
+  .gla:hover{
+    fill: #2196F3;
+  }  
