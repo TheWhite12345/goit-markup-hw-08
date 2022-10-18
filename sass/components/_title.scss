@@ -1,0 +1,324 @@
+@mixin font ($fs, $lh, $fw){
+  font-size: $fs;
+  line-height: $lh;
+  font-weight: $fw;
+}
+
+.protest{
+  position: absolute;
+  color: #FFFFFF;
+  background-color: rgba(47, 48, 58, 0.8);
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ font-weight: bold;
+  height: 70px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+} 
+@media screen and (min-width:480px) {
+  .protest {
+    max-width: 480px;
+    width: 370px;
+  }
+}
+@media screen and (min-width:768px) {
+  .protest {
+    max-width: 768px;
+    width: 100%;
+  }
+}
+.oppo {
+  @include font (44px, 1.3, 900);
+  color: rgba(255, 255, 255, 1);
+  max-width: 650px;
+  text-align: center;
+  margin: 0 auto;
+  }  
+  @media screen and (min-width:320px) {
+    .oppo {
+      max-width: 320px;
+    }
+  }
+  @media screen and (min-width:768px) {
+    .oppo {
+      max-width: 768px;
+    }
+  }
+.sonik {
+   @include font( 14px, 1.1, 500);
+    text-decoration: none; 
+    justify-content: flex-start;
+    align-items: center;
+      &:hover,
+      &:focus {
+      color: rgba(33, 150, 243, 1);
+       }
+    }
+    
+    .red {
+     color: rgba(117, 117, 117, 1);
+     padding-left: 50px;
+     padding-top: 32px;
+     padding-bottom: 32px;
+     align-items: center;
+     display: flex;
+     transition-property: color;
+     transition-duration: 250ms;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      &:hover,
+      &:focus {
+      transition-property: color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      fill: rgba(33, 150, 243, 1);
+     }
+     }
+     @media screen and (min-width:768px) {
+      .red {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: auto;
+      }
+    }
+  .blue {
+     display: block;
+     padding-top: 32px;
+     padding-bottom: 32px;
+     color: rgba(33, 33, 33, 1);
+     transition-property: color;
+     transition-duration: 250ms;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      &:hover,
+      &:focus {
+     transition-property: color;
+     transition-duration: 250ms;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+     }  
+       }  
+     .boss:focus,
+     .boss:hover{
+       color: rgba(33, 150, 243, 1);
+     }
+     .barbos:focus,
+     .barbos:hover{
+       color: rgba(33, 150, 243, 1);
+     }    
+
+     .mading {
+      @include font( 36px, 1.1 , 700);
+      text-align: center;
+      color: var(--color1);
+      margin: 0 0 50px 0;
+      }
+
+ .javellin {
+  @include font( 16px, 1.8 , 400);
+      margin: 0;
+     color: var(--color2);
+   }
+   .ios{
+    margin-top: 0;
+    font-size: 36px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 0ch;
+  } 
+  .isak {
+    @include font( 14px, 1.1, 700);
+    color: var(--color1);
+    text-transform: uppercase; 
+    margin: 10px;
+    margin-left: 0;
+    }
+            
+   .shooter {
+    @include font( 36px, 1.1 ,700);
+    margin: 0;
+    text-align: center;
+    color:var(--color1);
+    background: var(--color7);
+    margin-bottom: 50px;
+    }   
+   .text-reklama{
+    @include font( 18px, 1.5, 400);
+    position: absolute;
+    background-color: rgba(33, 150, 243, 0.9);
+    color: rgba(255, 255, 255, 1);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    transform: translateY(100%);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 63px 24px;
+  }
+  .smith {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color:rgba(33, 33, 33, 1);
+      }  
+  .tor{
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+  }
+  .junior{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+  }       
+  .noizeone  {
+    @include font( 26px, 1.1 , 700);
+    font-family: 'Raleway',sans-serif;
+    color: var(--color4);
+    text-decoration: none;
+    justify-content: center;
+      }
+  @media screen and (min-width:320px) {
+    .noizeone {
+      max-width: 767px;
+      justify-content: center;
+      align-content: center;
+      display: flex;
+      position: absolute;
+      left: 5%;
+    }
+  }    
+    .noizetwo {
+      @include font( 26px, 1.1 , 700);
+    font-family: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    justify-content: center; 
+    } 
+    
+    .noizethree {
+      @include font( 26px, 1.1 , 700);
+      font-family: 'Raleway', sans-serif;
+      color: rgba(33, 150, 243, 1);
+      text-decoration: none;
+      justify-content: center;
+       }
+    
+     .noizefour {
+      @include font( 26px, 1.1 , 700);
+      font-family: 'Raleway', sans-serif;
+      color: rgba(255, 255, 255, 1);
+      text-decoration: none;
+    }
+    .symbol-client{ 
+      height: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      fill: rgba(175, 177, 184, 1);
+      transition-property: fill;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+       &:hover,
+       &:focus{
+      fill: rgba(33, 150, 243, 1);
+      transition-property: fill;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+     }
+         .loft {
+          @include font(18px, 2, 700);
+            color: var(--color1);
+            margin-bottom: 4px;
+            margin-top: 0;
+            }       
+        .zemlia {
+          color: #FFFFFF;
+          font-weight: 700;
+          font-size: 14px;
+          margin-bottom: 14px;
+          }  
+          @media screen and (min-width:320px) {
+            .zemlia {
+              max-width: 320px;
+              text-align: center;
+            }
+          }  
+          @media screen and (min-width:480px) {
+            .zemlia {
+              max-width: 480px;
+              text-align: center;
+            }
+          }   
+          @media screen and (min-width:768px) {
+            .zemlia {
+              max-width: 768px;
+              text-align: center;
+            }
+          }   
+          @media screen and (min-width:1200px) {
+            .zemlia {
+              max-width: 1200px;
+              text-align: start;
+            }
+          }       
+          @media screen and (min-width:1600px) {
+            .zemlia {
+              max-width: 1600px;
+              text-align: start;
+            }
+          }    
+            .bordo-pop-item{
+                width: 44px;
+                height: 44px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: var(--color3);
+                fill: var(--color6);
+                transition-property: background-color;
+                transition-duration: 250ms;
+                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                  &:hover,
+                  &:focus {
+                background-color: var(--color4);
+                fill: var(--color3);
+                transition-duration: background-color;
+                transition-duration: 250ms;
+                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+              }            
+              }       
+              .teacher{
+                @include font( 14px, 1.7, 400);
+                color: var(--color2);
+                padding: 0;
+                margin-bottom: 0;
+                }
+                
+                .name {
+                @include font( 16px, 1.1, 500);
+                color: var(--color1);
+                text-align: center;
+                margin-bottom: 10px;
+                margin-top: 10px;
+                }
+                
+                .profesion {
+                  @include font(16px, 1.1 , 400);
+                color: var(--color2);  
+                text-align: center;
+                margin-bottom: 10px;
+                margin: 0;
+                }                         
+                         
